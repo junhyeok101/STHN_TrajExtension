@@ -1,0 +1,960 @@
+[Batch 0] Database Center UTM: [[3131. 2196.]]
+GT Query UTM: [[3131. 2056.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [58.86278 77.12917]
+ Corner 1: [143.18811  77.1254 ]
+ Corner 2: [ 58.8115  161.64935]
+ Corner 3: [143.21039 161.5867 ]
+Predicted Center (pixel): [101.19827 119.51984]
+Predicted Center (UTM approx): [[3080.11901855 2035.18963623]]
+
+[Batch 1] Database Center UTM: [[3131. 2371.]]
+GT Query UTM: [[3131. 2091.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [35.587833 83.69587 ]
+ Corner 1: [119.84448  83.66551]
+ Corner 2: [ 35.413074 168.14996 ]
+ Corner 3: [119.86833 168.15234]
+Predicted Center (pixel): [ 77.83555 126.0318 ]
+Predicted Center (UTM approx): [[3119.1907959  2070.01329041]]
+
+[Batch 2] Database Center UTM: [[3131. 2336.]]
+GT Query UTM: [[3131. 2126.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [50.488297 91.647415]
+ Corner 1: [134.8182  91.6167]
+ Corner 2: [ 50.41045 176.11127]
+ Corner 3: [134.8565 176.0683]
+Predicted Center (pixel): [ 92.81185 133.99739]
+Predicted Center (UTM approx): [[3166.98434448 2124.87110901]]
+
+[Batch 3] Database Center UTM: [[3131. 2371.]]
+GT Query UTM: [[3131. 2161.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [50.15273  89.734215]
+ Corner 1: [134.5074    89.728134]
+ Corner 2: [ 50.065697 174.31871 ]
+ Corner 3: [134.55612 174.22362]
+Predicted Center (pixel): [ 92.508194 132.13284 ]
+Predicted Center (UTM approx): [[3155.79705811 2158.04916382]]
+
+[Batch 4] Database Center UTM: [[3131. 2371.]]
+GT Query UTM: [[3131. 2196.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [67.12217 84.46861]
+ Corner 1: [151.46082  84.46719]
+ Corner 2: [ 67.00927 168.97214]
+ Corner 3: [151.47821 168.86975]
+Predicted Center (pixel): [109.458244 126.827324]
+Predicted Center (UTM approx): [[3123.96394348 2259.74946594]]
+
+[Batch 5] Database Center UTM: [[3131. 2336.]]
+GT Query UTM: [[3131. 2231.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [68.11734  80.336075]
+ Corner 1: [152.46744  80.22005]
+ Corner 2: [ 67.98392 164.75885]
+ Corner 3: [152.53049 164.71704]
+Predicted Center (pixel): [110.42174  122.624344]
+Predicted Center (UTM approx): [[3098.74606323 2230.53042603]]
+
+[Batch 6] Database Center UTM: [[3131. 2126.]]
+GT Query UTM: [[3131. 2266.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [110.099785  82.687965]
+ Corner 1: [194.55144   82.597084]
+ Corner 2: [110.072044 167.20895 ]
+ Corner 3: [194.52643 167.06247]
+Predicted Center (pixel): [152.49185 125.05386]
+Predicted Center (UTM approx): [[3113.32318115 2272.95111084]]
+
+[Batch 7] Database Center UTM: [[3131. 2161.]]
+GT Query UTM: [[3131. 2301.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [107.976036  82.08227 ]
+ Corner 1: [192.29892   81.938095]
+ Corner 2: [107.918945 166.50378 ]
+ Corner 3: [192.4111 166.4205]
+Predicted Center (pixel): [150.30153  124.359215]
+Predicted Center (UTM approx): [[3109.1552887  2294.80917358]]
+
+[Batch 8] Database Center UTM: [[3131. 2476.]]
+GT Query UTM: [[3131. 2336.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [47.623745 83.68064 ]
+ Corner 1: [131.88652   83.655266]
+ Corner 2: [ 47.443016 168.25198 ]
+ Corner 3: [131.90549 168.14377]
+Predicted Center (pixel): [ 89.90063 126.04851]
+Predicted Center (UTM approx): [[3119.29104614 2247.40376282]]
+
+[Batch 9] Database Center UTM: [[3131. 2441.]]
+GT Query UTM: [[3131. 2371.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [79.76429  75.548965]
+ Corner 1: [164.14078  75.56494]
+ Corner 2: [ 79.67418 160.09732]
+ Corner 3: [164.12935 160.06763]
+Predicted Center (pixel): [122.10398  117.965744]
+Predicted Center (UTM approx): [[3070.79446411 2405.62388611]]
+
+[Batch 10] Database Center UTM: [[3131. 2231.]]
+GT Query UTM: [[3131. 2406.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [107.78876  73.52017]
+ Corner 1: [192.26794  73.38473]
+ Corner 2: [107.78826 157.99622]
+ Corner 3: [192.28076 157.86536]
+Predicted Center (pixel): [150.19595  115.853676]
+Predicted Center (UTM approx): [[3058.12205505 2364.17572021]]
+
+[Batch 11] Database Center UTM: [[3131. 2511.]]
+GT Query UTM: [[3131. 2441.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [58.091434 91.47893 ]
+ Corner 1: [142.49911  91.39073]
+ Corner 2: [ 58.066647 175.896   ]
+ Corner 3: [142.494   175.79376]
+Predicted Center (pixel): [100.4568  133.80026]
+Predicted Center (UTM approx): [[3165.80157471 2345.74081421]]
+
+[Batch 12] Database Center UTM: [[3131. 2301.]]
+GT Query UTM: [[3131. 2476.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [115.67028   92.607635]
+ Corner 1: [199.99696   92.579994]
+ Corner 2: [115.624214 177.06625 ]
+ Corner 3: [199.96663 176.8941 ]
+Predicted Center (pixel): [158.01591 134.9483 ]
+Predicted Center (UTM approx): [[3172.68981934 2481.0954895 ]]
+
+[Batch 13] Database Center UTM: [[3131. 2336.]]
+GT Query UTM: [[3131. 2511.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [114.49687   79.474945]
+ Corner 1: [198.88617  79.41353]
+ Corner 2: [114.44657 163.976  ]
+ Corner 3: [198.86217 163.87082]
+Predicted Center (pixel): [156.84929 121.84272]
+Predicted Center (UTM approx): [[3094.05632019 2509.09573364]]
+
+[Batch 14] Database Center UTM: [[3131. 2441.]]
+GT Query UTM: [[3131. 2546.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [112.34528  91.3545 ]
+ Corner 1: [196.62888   91.351776]
+ Corner 2: [112.18681 175.8581 ]
+ Corner 3: [196.64061 175.6687 ]
+Predicted Center (pixel): [154.66231 133.681  ]
+Predicted Center (UTM approx): [[3165.08599854 2600.97384644]]
+
+[Batch 15] Database Center UTM: [[3131. 2651.]]
+GT Query UTM: [[3131. 2581.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [79.39835 81.47956]
+ Corner 1: [163.76297  81.45522]
+ Corner 2: [ 79.28441 165.96877]
+ Corner 3: [163.82379 165.87405]
+Predicted Center (pixel): [121.750496 123.81618 ]
+Predicted Center (UTM approx): [[3105.89706421 2613.50297546]]
+
+[Batch 16] Database Center UTM: [[3131. 2511.]]
+GT Query UTM: [[3131. 2616.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [110.78032  85.16819]
+ Corner 1: [195.24458   85.107254]
+ Corner 2: [110.75168 169.71654]
+ Corner 3: [195.1689  169.58838]
+Predicted Center (pixel): [153.16864 127.57238]
+Predicted Center (UTM approx): [[3128.4342804  2662.01184082]]
+
+[Batch 17] Database Center UTM: [[3131. 2756.]]
+GT Query UTM: [[3131. 2651.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [67.156815 88.86913 ]
+ Corner 1: [151.52159  88.81981]
+ Corner 2: [ 67.08734 173.36584]
+ Corner 3: [151.50568 173.20792]
+Predicted Center (pixel): [109.51037 131.21762]
+Predicted Center (UTM approx): [[3150.3057251  2645.06221008]]
+
+[Batch 18] Database Center UTM: [[3131. 2511.]]
+GT Query UTM: [[3131. 2686.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [120.16687   89.098076]
+ Corner 1: [204.62924  89.12198]
+ Corner 2: [120.08879 173.7864 ]
+ Corner 3: [204.63617 173.59016]
+Predicted Center (pixel): [162.60088 131.54352]
+Predicted Center (UTM approx): [[3152.2611084  2718.60525513]]
+
+[Batch 19] Database Center UTM: [[3131. 2546.]]
+GT Query UTM: [[3131. 2721.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [121.14113  83.99533]
+ Corner 1: [205.58253  83.99127]
+ Corner 2: [121.09752 168.50513]
+ Corner 3: [205.48112 168.37015]
+Predicted Center (pixel): [163.52367 126.39536]
+Predicted Center (UTM approx): [[3121.37217712 2759.14199829]]
+
+[Batch 20] Database Center UTM: [[3131. 2616.]]
+GT Query UTM: [[3131. 2756.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [108.656456  81.26306 ]
+ Corner 1: [193.05603   81.202614]
+ Corner 2: [108.62806 165.78302]
+ Corner 3: [193.08516 165.65817]
+Predicted Center (pixel): [151.03804  123.627785]
+Predicted Center (UTM approx): [[3104.76670837 2754.22824097]]
+
+[Batch 21] Database Center UTM: [[3131. 2931.]]
+GT Query UTM: [[3131. 2791.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [67.756775 85.49711 ]
+ Corner 1: [152.12     85.45133]
+ Corner 2: [ 67.70884 169.96906]
+ Corner 3: [152.11292 169.8459 ]
+Predicted Center (pixel): [110.10936 127.84601]
+Predicted Center (UTM approx): [[3130.0760498  2823.65615845]]
+
+[Batch 22] Database Center UTM: [[3131. 2931.]]
+GT Query UTM: [[3131. 2826.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [67.90682  79.593605]
+ Corner 1: [152.30725  79.47111]
+ Corner 2: [ 67.806656 164.03717 ]
+ Corner 3: [152.36304 163.98819]
+Predicted Center (pixel): [110.24313  121.899025]
+Predicted Center (UTM approx): [[3094.39414978 2824.45880127]]
+
+[Batch 23] Database Center UTM: [[3131. 2791.]]
+GT Query UTM: [[3131. 2861.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [96.87065 89.80054]
+ Corner 1: [181.2815   89.78457]
+ Corner 2: [ 96.78241 174.4664 ]
+ Corner 3: [181.32245 174.27669]
+Predicted Center (pixel): [139.2732 132.2153]
+Predicted Center (UTM approx): [[3156.29180908 2858.63916016]]
+
+[Batch 24] Database Center UTM: [[3131. 2791.]]
+GT Query UTM: [[3131. 2896.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [104.22028  87.06807]
+ Corner 1: [188.58038  87.06539]
+ Corner 2: [104.19547 171.59056]
+ Corner 3: [188.62022 171.40381]
+Predicted Center (pixel): [146.61555 129.43109]
+Predicted Center (UTM approx): [[3139.58654785 2902.69332886]]
+
+[Batch 25] Database Center UTM: [[3131. 2826.]]
+GT Query UTM: [[3131. 2931.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [102.93275  87.46506]
+ Corner 1: [187.35327  87.43773]
+ Corner 2: [102.91045 172.00714]
+ Corner 3: [187.38092 171.82446]
+Predicted Center (pixel): [145.34874 129.83647]
+Predicted Center (UTM approx): [[3142.01882935 2930.09243774]]
+
+[Batch 26] Database Center UTM: [[3131. 3036.]]
+GT Query UTM: [[3131. 2966.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [69.04328  77.860466]
+ Corner 1: [153.3328    77.756485]
+ Corner 2: [ 68.92524 162.2237 ]
+ Corner 3: [153.47733 162.19312]
+Predicted Center (pixel): [111.3418  120.10819]
+Predicted Center (UTM approx): [[3083.64915466 2936.05078125]]
+
+[Batch 27] Database Center UTM: [[3131. 2896.]]
+GT Query UTM: [[3131. 3001.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [108.96807  78.30926]
+ Corner 1: [193.39627  78.28406]
+ Corner 2: [108.924324 162.8752  ]
+ Corner 3: [193.36594 162.73648]
+Predicted Center (pixel): [151.35748 120.71342]
+Predicted Center (UTM approx): [[3087.28050232 3036.14489746]]
+
+[Batch 28] Database Center UTM: [[3131. 2966.]]
+GT Query UTM: [[3131. 3036.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [108.769646  81.53685 ]
+ Corner 1: [193.18909  81.45892]
+ Corner 2: [108.7374 166.0373]
+ Corner 3: [193.17342 165.90912]
+Predicted Center (pixel): [151.14543 123.89682]
+Predicted Center (UTM approx): [[3106.38092041 3104.87258911]]
+
+[Batch 29] Database Center UTM: [[3131. 3176.]]
+GT Query UTM: [[3131. 3071.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [72.5829  98.87673]
+ Corner 1: [156.8959   98.85616]
+ Corner 2: [ 72.41902 183.37375]
+ Corner 3: [156.94438 183.30795]
+Predicted Center (pixel): [114.887276 141.21608 ]
+Predicted Center (UTM approx): [[3210.29647827 3097.32365417]]
+
+[Batch 30] Database Center UTM: [[3131. 2931.]]
+GT Query UTM: [[3131. 3106.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [118.056435  85.42253 ]
+ Corner 1: [202.47229  85.33114]
+ Corner 2: [118.01808 169.92062]
+ Corner 3: [202.55515 169.8164 ]
+Predicted Center (pixel): [160.44434 127.75784]
+Predicted Center (UTM approx): [[3129.54705811 3125.66601562]]
+
+[Batch 31] Database Center UTM: [[3131. 3211.]]
+GT Query UTM: [[3131. 3141.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [75.41917 89.48489]
+ Corner 1: [159.81921  89.47324]
+ Corner 2: [ 75.27819 174.00806]
+ Corner 3: [159.81726 173.93442]
+Predicted Center (pixel): [117.76445 131.85599]
+Predicted Center (UTM approx): [[3154.13592529 3149.58670044]]
+
+[Batch 32] Database Center UTM: [[3131. 3246.]]
+GT Query UTM: [[3131. 3176.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [80.88222  85.728935]
+ Corner 1: [165.31213  85.65081]
+ Corner 2: [ 80.848305 170.18857 ]
+ Corner 3: [165.30473 170.0935 ]
+Predicted Center (pixel): [123.25661 128.07425]
+Predicted Center (UTM approx): [[3131.44549561 3217.53964233]]
+
+[Batch 33] Database Center UTM: [[3131. 3351.]]
+GT Query UTM: [[3131. 3211.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [56.277477 86.345955]
+ Corner 1: [140.63107  86.24283]
+ Corner 2: [ 56.207165 170.74873 ]
+ Corner 3: [140.6669  170.68365]
+Predicted Center (pixel): [ 98.60159 128.64413]
+Predicted Center (UTM approx): [[3134.86480713 3174.60955811]]
+
+[Batch 34] Database Center UTM: [[3131. 3316.]]
+GT Query UTM: [[3131. 3246.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [68.2452   87.437325]
+ Corner 1: [152.642    87.25088]
+ Corner 2: [ 68.209435 171.86664 ]
+ Corner 3: [152.65335 171.75098]
+Predicted Center (pixel): [110.5853  129.73001]
+Predicted Center (UTM approx): [[3141.38006592 3211.51177979]]
+
+[Batch 35] Database Center UTM: [[3131. 3141.]]
+GT Query UTM: [[3131. 3281.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [108.922295  94.556465]
+ Corner 1: [193.35036  94.53237]
+ Corner 2: [108.83765 179.0883 ]
+ Corner 3: [193.28963 178.97974]
+Predicted Center (pixel): [151.28651 136.94878]
+Predicted Center (UTM approx): [[3184.69265747 3280.71908569]]
+
+[Batch 36] Database Center UTM: [[3131. 3421.]]
+GT Query UTM: [[3131. 3316.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [64.34931 88.62803]
+ Corner 1: [148.70918  88.55694]
+ Corner 2: [ 64.30857 173.11179]
+ Corner 3: [148.69482 173.02081]
+Predicted Center (pixel): [106.685814 130.98827 ]
+Predicted Center (UTM approx): [[3148.92959595 3293.11488342]]
+
+[Batch 37] Database Center UTM: [[3131. 3246.]]
+GT Query UTM: [[3131. 3351.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [108.35884  84.32564]
+ Corner 1: [192.72398  84.28131]
+ Corner 2: [108.28512 168.82416]
+ Corner 3: [192.76299 168.71445]
+Predicted Center (pixel): [150.71455 126.67365]
+Predicted Center (UTM approx): [[3123.04191589 3382.287323  ]]
+
+[Batch 38] Database Center UTM: [[3131. 3246.]]
+GT Query UTM: [[3131. 3386.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [110.49018  91.89677]
+ Corner 1: [194.86824   91.876595]
+ Corner 2: [110.41856 176.3668 ]
+ Corner 3: [194.83994 176.22879]
+Predicted Center (pixel): [152.84908 134.24675]
+Predicted Center (UTM approx): [[3168.48049927 3395.0944519 ]]
+
+[Batch 39] Database Center UTM: [[3131. 3246.]]
+GT Query UTM: [[3131. 3421.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [117.6842    98.187744]
+ Corner 1: [202.14114  98.22632]
+ Corner 2: [117.57841 182.75351]
+ Corner 3: [202.07986 182.61296]
+Predicted Center (pixel): [160.08118 140.59956]
+Predicted Center (UTM approx): [[3206.59738159 3438.48706055]]
+
+[Batch 40] Database Center UTM: [[3131. 3351.]]
+GT Query UTM: [[3131. 3456.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [96.94998 86.6197 ]
+ Corner 1: [181.34149  86.62406]
+ Corner 2: [ 96.92449 171.20905]
+ Corner 3: [181.32925 171.01338]
+Predicted Center (pixel): [139.3517  129.02866]
+Predicted Center (UTM approx): [[3137.17193604 3419.11019897]]
+
+[Batch 41] Database Center UTM: [[3131. 3316.]]
+GT Query UTM: [[3131. 3491.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [114.507706  82.33772 ]
+ Corner 1: [198.93352   82.309235]
+ Corner 2: [114.445526 166.90768 ]
+ Corner 3: [198.92767 166.77518]
+Predicted Center (pixel): [156.89511 124.73391]
+Predicted Center (UTM approx): [[3111.40345764 3489.3706665 ]]
+
+[Batch 42] Database Center UTM: [[3131. 3421.]]
+GT Query UTM: [[3131. 3526.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [103.281235  91.2406  ]
+ Corner 1: [187.6306   91.25433]
+ Corner 2: [103.24928 175.71545]
+ Corner 3: [187.64676 175.54373]
+Predicted Center (pixel): [145.66374 133.59177]
+Predicted Center (UTM approx): [[3164.55059814 3526.98245239]]
+
+[Batch 43] Database Center UTM: [[3131. 3386.]]
+GT Query UTM: [[3131. 3561.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [114.50069  79.75023]
+ Corner 1: [198.92072  79.74191]
+ Corner 2: [114.44333 164.32578]
+ Corner 3: [198.89645 164.20471]
+Predicted Center (pixel): [156.88394  122.162964]
+Predicted Center (UTM approx): [[3095.9777832 3559.3036499]]
+
+[Batch 44] Database Center UTM: [[3131. 3456.]]
+GT Query UTM: [[3131. 3596.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [111.06872  92.37496]
+ Corner 1: [195.30807  92.37652]
+ Corner 2: [110.9926  176.72058]
+ Corner 3: [195.32016 176.56522]
+Predicted Center (pixel): [153.37682 134.65233]
+Predicted Center (UTM approx): [[3170.91397095 3608.26089478]]
+
+[Batch 45] Database Center UTM: [[3131. 3491.]]
+GT Query UTM: [[3131. 3631.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [110.447105  79.66698 ]
+ Corner 1: [194.91336  79.59635]
+ Corner 2: [110.40604 164.25002]
+ Corner 3: [194.8739  164.02998]
+Predicted Center (pixel): [152.86298 122.0508 ]
+Predicted Center (UTM approx): [[3095.30477905 3640.17785645]]
+
+[Batch 46] Database Center UTM: [[3131. 3806.]]
+GT Query UTM: [[3131. 3666.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [67.918846 78.52823 ]
+ Corner 1: [152.23816  78.50354]
+ Corner 2: [ 67.81792 163.03139]
+ Corner 3: [152.27335 162.93848]
+Predicted Center (pixel): [110.2445  120.88185]
+Predicted Center (UTM approx): [[3088.29110718 3699.46699524]]
+
+[Batch 47] Database Center UTM: [[3131. 3526.]]
+GT Query UTM: [[3131. 3701.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [112.92586  78.39032]
+ Corner 1: [197.3642    78.230225]
+ Corner 2: [112.877365 162.88034 ]
+ Corner 3: [197.34628 162.75754]
+Predicted Center (pixel): [155.28462 120.7224 ]
+Predicted Center (UTM approx): [[3087.3343811  3689.70773315]]
+
+[Batch 48] Database Center UTM: [[3131. 3631.]]
+GT Query UTM: [[3131. 3736.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [104.43955   93.542725]
+ Corner 1: [188.79709  93.53062]
+ Corner 2: [104.40208 178.06824]
+ Corner 3: [188.85178 177.84189]
+Predicted Center (pixel): [146.84166 135.88803]
+Predicted Center (UTM approx): [[3178.32818604 3744.04995728]]
+
+[Batch 49] Database Center UTM: [[3131. 3841.]]
+GT Query UTM: [[3131. 3771.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [73.381516 86.64949 ]
+ Corner 1: [157.71617   86.619354]
+ Corner 2: [ 73.2825  171.09406]
+ Corner 3: [157.7008  170.97589]
+Predicted Center (pixel): [115.70758 128.97913]
+Predicted Center (UTM approx): [[3136.87475586 3767.2454834 ]]
+
+[Batch 50] Database Center UTM: [[3131. 3701.]]
+GT Query UTM: [[3131. 3806.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [97.03396 96.03363]
+ Corner 1: [181.35391  95.99784]
+ Corner 2: [ 96.96611 180.5035 ]
+ Corner 3: [181.34518 180.3725 ]
+Predicted Center (pixel): [139.36388 138.37743]
+Predicted Center (UTM approx): [[3193.26455688 3769.18325806]]
+
+[Batch 51] Database Center UTM: [[3131. 3981.]]
+GT Query UTM: [[3131. 3841.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [61.923847 91.48547 ]
+ Corner 1: [146.2682    91.445465]
+ Corner 2: [ 61.85177 175.9416 ]
+ Corner 3: [146.2514  175.83612]
+Predicted Center (pixel): [104.25551 133.82872]
+Predicted Center (UTM approx): [[3165.97232056 3838.53305054]]
+
+[Batch 52] Database Center UTM: [[3131. 4016.]]
+GT Query UTM: [[3131. 3876.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [62.09135 85.18915]
+ Corner 1: [146.46855  85.12303]
+ Corner 2: [ 61.991337 169.68391 ]
+ Corner 3: [146.50766 169.6134 ]
+Predicted Center (pixel): [104.43133 127.53311]
+Predicted Center (UTM approx): [[3128.19866943 3874.58796692]]
+
+[Batch 53] Database Center UTM: [[3131. 3771.]]
+GT Query UTM: [[3131. 3911.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [108.60085  85.2588 ]
+ Corner 1: [193.01865  85.2376 ]
+ Corner 2: [108.53841 169.8089 ]
+ Corner 3: [193.00047 169.67789]
+Predicted Center (pixel): [150.98251 127.65024]
+Predicted Center (UTM approx): [[3128.90142822 3908.89508057]]
+
+[Batch 54] Database Center UTM: [[3131. 3841.]]
+GT Query UTM: [[3131. 3946.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [113.99777  79.58562]
+ Corner 1: [198.42877  79.48732]
+ Corner 2: [113.94303 164.11786]
+ Corner 3: [198.38168 163.95813]
+Predicted Center (pixel): [156.36862 121.95074]
+Predicted Center (UTM approx): [[3094.704422   4011.21173096]]
+
+[Batch 55] Database Center UTM: [[3131. 4051.]]
+GT Query UTM: [[3131. 3981.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [63.3709 77.2265]
+ Corner 1: [147.66556  77.09147]
+ Corner 2: [ 63.248856 161.5506  ]
+ Corner 3: [147.70618 161.53955]
+Predicted Center (pixel): [105.632225 119.47669 ]
+Predicted Center (UTM approx): [[3079.8601532  3916.79335022]]
+
+[Batch 56] Database Center UTM: [[3131. 4156.]]
+GT Query UTM: [[3131. 4016.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [56.046703 80.57773 ]
+ Corner 1: [140.38208  80.56138]
+ Corner 2: [ 55.953957 165.12595 ]
+ Corner 3: [140.43478 165.03421]
+Predicted Center (pixel): [ 98.38866 122.954  ]
+Predicted Center (UTM approx): [[3100.72401428 3978.3319397 ]]
+
+[Batch 57] Database Center UTM: [[3131. 3911.]]
+GT Query UTM: [[3131. 4051.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [122.07418  80.23482]
+ Corner 1: [206.56866   80.247604]
+ Corner 2: [121.99867 164.83765]
+ Corner 3: [206.40483 164.67511]
+Predicted Center (pixel): [164.47072  122.686485]
+Predicted Center (UTM approx): [[3099.11891174 4129.8243103 ]]
+
+[Batch 58] Database Center UTM: [[3131. 4191.]]
+GT Query UTM: [[3131. 4086.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [67.61831  80.374954]
+ Corner 1: [151.92104   80.315735]
+ Corner 2: [ 67.51214 164.86768]
+ Corner 3: [151.98714 164.75473]
+Predicted Center (pixel): [109.93847 122.70061]
+Predicted Center (UTM approx): [[3099.2036438 4082.6308136]]
+
+[Batch 59] Database Center UTM: [[3131. 4226.]]
+GT Query UTM: [[3131. 4121.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [62.176807 82.88317 ]
+ Corner 1: [146.49677  82.83679]
+ Corner 2: [ 62.099148 167.34903 ]
+ Corner 3: [146.58592 167.206  ]
+Predicted Center (pixel): [104.52928  125.192345]
+Predicted Center (UTM approx): [[3114.15406799 4085.1756897 ]]
+
+[Batch 60] Database Center UTM: [[3131. 4051.]]
+GT Query UTM: [[3131. 4156.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [102.80525  89.34075]
+ Corner 1: [187.16324  89.30301]
+ Corner 2: [102.7436  173.86096]
+ Corner 3: [187.16672 173.72107]
+Predicted Center (pixel): [145.16061 131.70558]
+Predicted Center (UTM approx): [[3153.23348999 4153.96368408]]
+
+[Batch 61] Database Center UTM: [[3131. 4016.]]
+GT Query UTM: [[3131. 4191.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [118.63157  91.09782]
+ Corner 1: [203.12903  91.03206]
+ Corner 2: [118.5837  175.65985]
+ Corner 3: [203.13501 175.47989]
+Predicted Center (pixel): [161.06406 133.46936]
+Predicted Center (UTM approx): [[3163.81616211 4214.38433838]]
+
+[Batch 62] Database Center UTM: [[3131. 4296.]]
+GT Query UTM: [[3131. 4226.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [73.617905 78.47782 ]
+ Corner 1: [157.9821    78.466576]
+ Corner 2: [ 73.548775 162.95447 ]
+ Corner 3: [157.99104 162.85513]
+Predicted Center (pixel): [115.972404 120.83441 ]
+Predicted Center (UTM approx): [[3088.00646973 4223.83442688]]
+
+[Batch 63] Database Center UTM: [[3131. 4366.]]
+GT Query UTM: [[3131. 4261.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [57.682774 80.32832 ]
+ Corner 1: [142.11658  80.27284]
+ Corner 2: [ 57.593094 164.82709 ]
+ Corner 3: [142.14989 164.74846]
+Predicted Center (pixel): [100.05698 122.67896]
+Predicted Center (UTM approx): [[3099.07377625 4198.34185791]]
+
+[Batch 64] Database Center UTM: [[3131. 4366.]]
+GT Query UTM: [[3131. 4296.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [79.182274 85.46322 ]
+ Corner 1: [163.6131   85.38434]
+ Corner 2: [ 79.088974 169.91956 ]
+ Corner 3: [163.6075  169.81973]
+Predicted Center (pixel): [121.54373 127.7902 ]
+Predicted Center (UTM approx): [[3129.74119568 4327.26239014]]
+
+[Batch 65] Database Center UTM: [[3131. 4471.]]
+GT Query UTM: [[3131. 4331.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [61.65242  77.575516]
+ Corner 1: [145.99272   77.573006]
+ Corner 2: [ 61.536217 162.06116 ]
+ Corner 3: [146.00848 162.04152]
+Predicted Center (pixel): [103.967155 119.945404]
+Predicted Center (UTM approx): [[3082.67242432 4326.80293274]]
+
+[Batch 66] Database Center UTM: [[3131. 4191.]]
+GT Query UTM: [[3131. 4366.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [108.71813  79.67024]
+ Corner 1: [193.06172   79.666756]
+ Corner 2: [108.66452 164.21646]
+ Corner 3: [193.0664  164.08331]
+Predicted Center (pixel): [151.07545 122.0601 ]
+Predicted Center (UTM approx): [[3095.36058044 4329.45272827]]
+
+[Batch 67] Database Center UTM: [[3131. 4261.]]
+GT Query UTM: [[3131. 4401.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [107.08596   95.935074]
+ Corner 1: [191.4026  95.9787]
+ Corner 2: [107.04871 180.40808]
+ Corner 3: [191.48816 180.21075]
+Predicted Center (pixel): [149.48207 138.26764]
+Predicted Center (UTM approx): [[3192.60583496 4389.89242554]]
+
+[Batch 68] Database Center UTM: [[3131. 4331.]]
+GT Query UTM: [[3131. 4436.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [109.664764  91.75101 ]
+ Corner 1: [194.01286  91.72622]
+ Corner 2: [109.61423 176.18219]
+ Corner 3: [193.9895  176.05568]
+Predicted Center (pixel): [152.01111 134.08727]
+Predicted Center (UTM approx): [[3167.52359009 4475.06665039]]
+
+[Batch 69] Database Center UTM: [[3131. 4576.]]
+GT Query UTM: [[3131. 4471.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [73.64794 91.57391]
+ Corner 1: [158.02332   91.517784]
+ Corner 2: [ 73.527176 176.05296 ]
+ Corner 3: [158.01941 175.9477 ]
+Predicted Center (pixel): [115.98217 133.9093 ]
+Predicted Center (UTM approx): [[3166.45581055 4503.89302063]]
+
+[Batch 70] Database Center UTM: [[3131. 4331.]]
+GT Query UTM: [[3131. 4506.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [114.52109  79.57619]
+ Corner 1: [198.94666  79.54039]
+ Corner 2: [114.478004 164.10098 ]
+ Corner 3: [198.9329  163.96036]
+Predicted Center (pixel): [156.91136 121.95258]
+Predicted Center (UTM approx): [[3094.71549988 4504.46817017]]
+
+[Batch 71] Database Center UTM: [[3131. 4611.]]
+GT Query UTM: [[3131. 4541.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [73.5069   74.668785]
+ Corner 1: [157.90045  74.59166]
+ Corner 2: [ 73.42083 159.13342]
+ Corner 3: [157.87415 159.07019]
+Predicted Center (pixel): [115.83753  117.016556]
+Predicted Center (UTM approx): [[3065.09933472 4538.02519226]]
+
+[Batch 72] Database Center UTM: [[3131. 4681.]]
+GT Query UTM: [[3131. 4576.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [69.937485 81.7761  ]
+ Corner 1: [154.24432  81.69793]
+ Corner 2: [ 69.852875 166.13123 ]
+ Corner 3: [154.31091 166.02507]
+Predicted Center (pixel): [112.2588  124.03499]
+Predicted Center (UTM approx): [[3107.20993042 4586.55278015]]
+
+[Batch 73] Database Center UTM: [[3131. 4681.]]
+GT Query UTM: [[3131. 4611.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [79.46387 83.01767]
+ Corner 1: [163.87073   82.960266]
+ Corner 2: [ 79.37872 167.55952]
+ Corner 3: [163.90582 167.43303]
+Predicted Center (pixel): [121.8376  125.37805]
+Predicted Center (UTM approx): [[3115.26831055 4644.02560425]]
+
+[Batch 74] Database Center UTM: [[3131. 4786.]]
+GT Query UTM: [[3131. 4646.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [61.67344 81.10186]
+ Corner 1: [146.04338  81.07263]
+ Corner 2: [ 61.526222 165.63612 ]
+ Corner 3: [146.04785 165.54851]
+Predicted Center (pixel): [104.002754 123.467415]
+Predicted Center (UTM approx): [[3103.80448914 4642.01652527]]
+
+[Batch 75] Database Center UTM: [[3131. 4576.]]
+GT Query UTM: [[3131. 4681.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [105.47116   82.138596]
+ Corner 1: [189.7393   82.07424]
+ Corner 2: [105.38043 166.68503]
+ Corner 3: [189.8852  166.52498]
+Predicted Center (pixel): [147.80833 124.4619 ]
+Predicted Center (UTM approx): [[3109.77139282 4694.8500061 ]]
+
+[Batch 76] Database Center UTM: [[3131. 4576.]]
+GT Query UTM: [[3131. 4716.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [108.64589  80.89602]
+ Corner 1: [193.07246  80.77916]
+ Corner 2: [108.63491 165.38089]
+ Corner 3: [193.08055 165.26695]
+Predicted Center (pixel): [151.02327 123.24142]
+Predicted Center (UTM approx): [[3102.44850159 4714.13961792]]
+
+[Batch 77] Database Center UTM: [[3131. 4856.]]
+GT Query UTM: [[3131. 4751.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [74.84582 82.2616 ]
+ Corner 1: [159.22144  82.24543]
+ Corner 2: [ 74.73317 166.80646]
+ Corner 3: [159.29318 166.71149]
+Predicted Center (pixel): [117.20866 124.6257 ]
+Predicted Center (UTM approx): [[3110.75421143 4791.25193787]]
+
+[Batch 78] Database Center UTM: [[3131. 4681.]]
+GT Query UTM: [[3131. 4786.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [102.28378   82.164505]
+ Corner 1: [186.53896  82.10886]
+ Corner 2: [102.18436 166.65555]
+ Corner 3: [186.67792 166.48727]
+Predicted Center (pixel): [144.61478 124.4597 ]
+Predicted Center (UTM approx): [[3109.75820923 4780.68865967]]
+
+[Batch 79] Database Center UTM: [[3131. 4926.]]
+GT Query UTM: [[3131. 4821.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [67.86577 90.01076]
+ Corner 1: [152.26083  89.90596]
+ Corner 2: [ 67.76501 174.54185]
+ Corner 3: [152.25644 174.42984]
+Predicted Center (pixel): [110.20427 132.36351]
+Predicted Center (UTM approx): [[3157.18106079 4819.22561646]]
+
+[Batch 80] Database Center UTM: [[3131. 4751.]]
+GT Query UTM: [[3131. 4856.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [96.9577  85.11175]
+ Corner 1: [181.36311  85.07574]
+ Corner 2: [ 96.878784 169.73474 ]
+ Corner 3: [181.38199 169.55922]
+Predicted Center (pixel): [139.34575 127.51144]
+Predicted Center (UTM approx): [[3128.06861877 4819.07449341]]
+
+[Batch 81] Database Center UTM: [[3131. 4996.]]
+GT Query UTM: [[3131. 4891.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [74.22719 87.06003]
+ Corner 1: [158.58287  86.91771]
+ Corner 2: [ 74.1556  171.47473]
+ Corner 3: [158.60422 171.41585]
+Predicted Center (pixel): [116.53705 129.35925]
+Predicted Center (UTM approx): [[3139.15551758 4927.22229004]]
+
+[Batch 82] Database Center UTM: [[3131. 4751.]]
+GT Query UTM: [[3131. 4926.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [108.27067  85.32103]
+ Corner 1: [192.63849  85.34079]
+ Corner 2: [108.18757 169.89847]
+ Corner 3: [192.62842 169.77283]
+Predicted Center (pixel): [150.633   127.73059]
+Predicted Center (UTM approx): [[3129.38354492 4886.79797363]]
+
+[Batch 83] Database Center UTM: [[3131. 4856.]]
+GT Query UTM: [[3131. 4961.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [96.997444 80.801155]
+ Corner 1: [181.36311  80.73825]
+ Corner 2: [ 96.87405 165.31789]
+ Corner 3: [181.40408 165.20917]
+Predicted Center (pixel): [139.3366 123.141 ]
+Predicted Center (UTM approx): [[3101.84599304 4924.01956177]]
+
+[Batch 84] Database Center UTM: [[3131. 4856.]]
+GT Query UTM: [[3131. 4996.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [101.365395  87.37099 ]
+ Corner 1: [185.61148   87.376854]
+ Corner 2: [101.27402 171.85776]
+ Corner 3: [185.68073 171.64374]
+Predicted Center (pixel): [143.70312 129.68733]
+Predicted Center (UTM approx): [[3141.12399292 4950.21875   ]]
+
+[Batch 85] Database Center UTM: [[3131. 4891.]]
+GT Query UTM: [[3131. 5031.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [117.879364  79.53477 ]
+ Corner 1: [202.3271   79.46542]
+ Corner 2: [117.8609  164.06236]
+ Corner 3: [202.36046 163.93199]
+Predicted Center (pixel): [160.28784  121.901146]
+Predicted Center (UTM approx): [[3094.40687561 5084.72705078]]
+
+[Batch 86] Database Center UTM: [[3131. 5206.]]
+GT Query UTM: [[3131. 5066.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [56.25247 80.25375]
+ Corner 1: [140.62569  80.2001 ]
+ Corner 2: [ 56.18378 164.8148 ]
+ Corner 3: [140.71402 164.67932]
+Predicted Center (pixel): [ 98.62999 122.61323]
+Predicted Center (UTM approx): [[3098.67936707 5029.77993774]]
+
+[Batch 87] Database Center UTM: [[3131. 5241.]]
+GT Query UTM: [[3131. 5101.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [62.039818 79.678505]
+ Corner 1: [146.42381   79.597725]
+ Corner 2: [ 61.954586 164.16919 ]
+ Corner 3: [146.45189 164.04703]
+Predicted Center (pixel): [104.39336 122.01019]
+Predicted Center (UTM approx): [[3095.06115723 5099.36013794]]
+
+[Batch 88] Database Center UTM: [[3131. 5241.]]
+GT Query UTM: [[3131. 5136.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [73.59252 92.86966]
+ Corner 1: [157.9036  92.8391]
+ Corner 2: [ 73.509346 177.33261 ]
+ Corner 3: [157.87273 177.23138]
+Predicted Center (pixel): [115.90245 135.2205 ]
+Predicted Center (UTM approx): [[3174.32302856 5168.41470337]]
+
+[Batch 89] Database Center UTM: [[3131. 5066.]]
+GT Query UTM: [[3131. 5171.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [106.41896   81.349915]
+ Corner 1: [190.81105  81.22459]
+ Corner 2: [106.38537 165.84937]
+ Corner 3: [190.88719 165.7236 ]
+Predicted Center (pixel): [148.79132 123.67486]
+Predicted Center (UTM approx): [[3105.04914856 5190.7479248 ]]
+
+[Batch 90] Database Center UTM: [[3131. 5346.]]
+GT Query UTM: [[3131. 5206.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [56.10093 88.87906]
+ Corner 1: [140.52682  88.83921]
+ Corner 2: [ 56.029633 173.42465 ]
+ Corner 3: [140.50208 173.33026]
+Predicted Center (pixel): [ 98.46898 131.27223]
+Predicted Center (UTM approx): [[3150.63339233 5168.81387329]]
+
+[Batch 91] Database Center UTM: [[3131. 5346.]]
+GT Query UTM: [[3131. 5241.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [64.57994 90.77635]
+ Corner 1: [148.92444  90.78166]
+ Corner 2: [ 64.48845 175.34341]
+ Corner 3: [148.91718 175.25372]
+Predicted Center (pixel): [106.91658 133.18333]
+Predicted Center (UTM approx): [[3162.1000061 5219.4994812]]
+
+[Batch 92] Database Center UTM: [[3131. 5346.]]
+GT Query UTM: [[3131. 5276.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [68.144325 90.90998 ]
+ Corner 1: [152.57944  90.82935]
+ Corner 2: [ 68.03541 175.4726 ]
+ Corner 3: [152.57501 175.36334]
+Predicted Center (pixel): [110.50623 133.28326]
+Predicted Center (UTM approx): [[3162.69958496 5241.03739929]]
+
+[Batch 93] Database Center UTM: [[3131. 5206.]]
+GT Query UTM: [[3131. 5311.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [108.65481   84.862915]
+ Corner 1: [193.08203   84.815414]
+ Corner 2: [108.58966 169.4104 ]
+ Corner 3: [193.0809  169.27316]
+Predicted Center (pixel): [151.03981 127.23995]
+Predicted Center (UTM approx): [[3126.43971252 5344.23886108]]
+
+[Batch 94] Database Center UTM: [[3131. 5171.]]
+GT Query UTM: [[3131. 5346.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [118.0732   85.35647]
+ Corner 1: [202.50165  85.26415]
+ Corner 2: [118.01839 169.86456]
+ Corner 3: [202.57326 169.76862]
+Predicted Center (pixel): [160.45818 127.69735]
+Predicted Center (UTM approx): [[3129.18409729 5365.74905396]]
+
+[Batch 95] Database Center UTM: [[3131. 5066.]]
+GT Query UTM: [[3131. 5381.]]
+Predicted 4 corners (pixel coords):
+ Corner 0: [131.9488   87.16686]
+ Corner 1: [216.3595   87.22093]
+ Corner 2: [131.89178 171.65028]
+ Corner 3: [216.33029 171.52994]
+Predicted Center (pixel): [174.34167 129.55048]
+Predicted Center (UTM approx): [[3140.30285645 5344.05004883]]
+

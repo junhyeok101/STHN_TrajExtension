@@ -2,6 +2,7 @@
 # input : 재구성한 데이터셋 
 # t_outputs/compare에 output 저장
 
+
 import numpy as np
 import os
 import torch
@@ -60,7 +61,7 @@ def evaluate_SNet(model, val_dataset, batch_size=0, args=None, wandb_log=False):
 
     pred_centers, gt_centers = [], []
 
-    os.makedirs("t_outputs/compare", exist_ok=True)
+    os.makedirs("t_outputs", exist_ok=True)
 
     torch.cuda.empty_cache()
 
@@ -99,8 +100,20 @@ def evaluate_SNet(model, val_dataset, batch_size=0, args=None, wandb_log=False):
             center_pred = cv2.perspectiveTransform(center_pix, H_cv)[0, 0]
 
             # Pixel → UTM 변환
-            scale = (args.database_size / args.resize_width)
-            pred_center_utm = db_center + (center_pred - S/2) * scale
+            scale = (args.database_size / args.resize_width) 
+
+            # 이부분!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+            # 1. 픽셀 중심으로부터의 변위(변화량) 계산: 결과는 [delta_x, delta_y] 형태
+            pixel_offset = center_pred - (S / 2)
+
+            # 2. 픽셀 변위를 UTM 변위로 변환하면서 축 보정
+            #    - 이미지의 Y축(아래로 +)과 UTM의 Y축(북쪽으로 +) 방향이 반대이므로, Y 변화량에 -1을 곱합니다.
+            utm_offset_x = pixel_offset[1] * scale
+            utm_offset_y = pixel_offset[0] * scale  # Y축 방향 보정
+
+            # 3. 최종 UTM 좌표 계산
+            #    db_center의 X에는 X 변화량을, Y에는 Y 변화량을 정확히 더합니다.
+            pred_center_utm = db_center + np.array([utm_offset_x, utm_offset_y])
 
             pred_centers.append(pred_center_utm)
             gt_centers.append(gt_center)
@@ -114,34 +127,43 @@ def evaluate_SNet(model, val_dataset, batch_size=0, args=None, wandb_log=False):
             print(f"Predicted Center (pixel): {center_pred}")
             print(f"Predicted Center (UTM approx): {pred_center_utm}\n")
 
+
+
     # --- Trajectory plot ---
-# --- Trajectory plot ---
     pred_arr, gt_arr = np.array(pred_centers), np.array(gt_centers)
-
-
-    # 혹시 (N,1)이나 (N,1,2) 형태일 때 강제로 (N,2)로 펴줌
     pred_arr = np.squeeze(pred_arr)
     gt_arr = np.squeeze(gt_arr)
 
+    # --- Trajectory plot 1 (ordered line) ---
     plt.figure(figsize=(8, 8))
-
-    # GT (순서만 점 찍기)
     plt.scatter(gt_arr[:, 0], gt_arr[:, 1], c="green", marker="o", label="GT Trajectory")
-
-    # Pred (순서대로 점 + 선 연결)
     plt.plot(pred_arr[:, 0], pred_arr[:, 1], "rx--", linewidth=0.8, markersize=5, label="Pred Trajectory")
-
     plt.ylabel("UTM Y")
     plt.legend()
     plt.title("GT vs Predicted Trajectory (Sequential Pred)")
     plt.axis("equal")
     plt.grid(True)
-
-    save_path = "t_outputs/compare/trajectory_ordered_pred2.png"
-    plt.savefig(save_path, dpi=200)
+    plt.savefig("t_outputs/trajectory_ordered.png", dpi=200)
     plt.close()
-    print(f"Sequential Pred trajectory plot saved at {save_path}")
-    print(" Debug evaluation finished.")
+
+    # --- Trajectory plot 2 (numbered points) ---
+    plt.figure(figsize=(10, 10))
+    plt.scatter(gt_arr[:, 0], gt_arr[:, 1], c="green", marker="o", label="GT Trajectory")
+    for i, (x, y) in enumerate(gt_arr):
+        plt.text(x + 5, y + 5, str(i), color="green", fontsize=7)
+
+    plt.scatter(pred_arr[:, 0], pred_arr[:, 1], c="red", marker="x", label="Pred Trajectory")
+    for i, (x, y) in enumerate(pred_arr):
+        plt.text(x + 5, y + 5, str(i), color="red", fontsize=7)
+
+    plt.ylabel("UTM Y")
+    plt.legend()
+    plt.title("GT vs Predicted Trajectory (Sequential Pred with Index)")
+    plt.axis("equal")
+    plt.grid(True)
+    plt.savefig("t_outputs/trajectory_ordered_numbered.png", dpi=200)
+    plt.close()
+
 
 
 if __name__ == '__main__':
@@ -152,7 +174,7 @@ if __name__ == '__main__':
             "test",
             args.save_dir,
             args.eval_model.split("/")[-2] if args.eval_model is not None else "none",
-            f"{args.dataset_name}-{start_time.strftime('%Y-%m-%d_%H-%M-%S')}",
+            f"{args.dataset_name}-{start_time.strftime('%Y  -%m-%d_%H-%M-%S')}",
         )
         commons.setup_logging(args.save_dir, console='info')
     setup_seed(0)

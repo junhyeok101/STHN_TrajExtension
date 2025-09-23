@@ -1,0 +1,27 @@
+=== Query (Thermal) ===
+File: t_datasets/3131_datasets/test_queries.h5
+Keys: ['image_data', 'image_name']
+image_data shape: (96, 768, 768, 3)
+image_data dtype: uint8
+image_name 개수: 96
+첫 5개 이름 예시: ['@3131@2056', '@3131@2091', '@3131@2126', '@3131@2161', '@3131@2196']
+
+- Thermal 이미지는 512×512 patch
+- 해상도: 1 m/px
+- 실제 커버 범위: 512 m × 512 m
+
+=== Database (Satellite) ===
+File: t_datasets/3131_datasets/test_database.h5
+Keys: ['image_name', 'image_size']
+image_name 개수: 96
+첫 5개 이름 예시: ['@3131@2056', '@3131@2091', '@3131@2126', '@3131@2161', '@3131@2196']
+image_size shape: (96, 2)
+첫 5개 사이즈 예시: [[768, 768], [768, 768], [768, 768], [768, 768], [768, 768]]
+
+- Satellite 이미지는 WS×WS 크기로 crop 후 사용
+  ((thermal 512×512과 영역 매칭, 단 실제 m/px은 WS에 따라 달라짐))
+  • WS = 512  → 1 px = 1.0 m → 실제 커버 512 m
+  • WS = 1024  → 실제 커버 1024 m → Resize(256) 후 1 px = 4 m
+  • WS = 1536  → 실제 커버 1536 m → Resize(256) 후 1 px = 6 m
+
+저장 완료!

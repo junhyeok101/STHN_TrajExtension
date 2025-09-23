@@ -26,6 +26,7 @@ from os.path import join
 import commons
 import logging
 import wandb
+import platform
 
 def test(args, wandb_log):
     if not args.identity:
@@ -157,7 +158,7 @@ def evaluate_SNet(model, val_dataset, batch_size=0, args=None, wandb_log=False):
                 four_pred = torch.zeros((flow_gt.shape[0], 2, 2, 2))
 
             # ----- 시각화용 호모그래피 & 겹치기 -----
-            if not args.identity and i_batch < 200:   # ✅ 앞의 10개만 저장
+            if not args.identity and i_batch < 200  and False:   # ✅ 앞의 10개만 저장
                 # 모델 좌표계 해상도 (항상 여기서 H를 계산)
                 S = int(args.resize_width)
 
@@ -190,10 +191,12 @@ def evaluate_SNet(model, val_dataset, batch_size=0, args=None, wandb_log=False):
                 overlay_big = cv2.resize(overlay_small, (w, h))
 
                 vis3 = np.hstack([q_img, d_big, overlay_big])
-                os.makedirs("t_outputs/match_image", exist_ok=True)
-                save_path = os.path.join("t_outputs", f"match_{i_batch}.png")
+                save_dir = "t_outputs/match_images"   # 원하는 폴더명
+                os.makedirs(save_dir, exist_ok=True)
+
+                save_path = os.path.join(save_dir, f"match_{i_batch}.png")
                 cv2.imwrite(save_path, cv2.cvtColor(vis3, cv2.COLOR_RGB2BGR))
-                print(f"Saved {save_path}")
+                print(f"Saved {save_path}") 
 
 
 
@@ -313,12 +316,74 @@ def evaluate_SNet(model, val_dataset, batch_size=0, args=None, wandb_log=False):
         if wandb_log:
             wandb.log({"test_mace_conf_error": final_mace_conf_error})
 
-    logging.info(np.mean(np.array(timeall[1:-1])))
+    #logging.info(np.mean(np.array(timeall[1:-1])))
     io.savemat(args.save_dir + '/resmat', {'matrix': total_mace.numpy()})
     np.save(args.save_dir + '/resnpy.npy', total_mace.numpy())
     io.savemat(args.save_dir + '/flowmat', {'matrix': total_flow.numpy()})
     np.save(args.save_dir + '/flownpy.npy', total_flow.numpy())
     plot_hist_helper(args.save_dir)
+
+
+    # 결과 저장 경로 생성
+    os.makedirs("t_outputs", exist_ok=True)
+
+    metrics_path = os.path.join("t_outputs", "metrics.txt")
+
+    # 실행 시간 계산
+    end_time = datetime.now()
+    elapsed_time = end_time - start_time  # timedelta 객체
+    elapsed_str = str(elapsed_time).split(".")[0]  # 초 단위까지만
+
+    with open(metrics_path, "w") as f:
+        f.write("=== Evaluation Results ===\n")
+        f.write(f"MACE: {final_mace:.6f}\n")
+        f.write(f"CE:   {final_ce:.6f}\n")
+        f.write(f"Flow Mean: {final_flow:.6f}\n\n")
+
+        f.write("=== Model Info ===\n")
+        f.write(f"Eval Model       : {args.eval_model}\n")
+        f.write(f"Two Stages       : {args.two_stages}\n\n")
+
+        f.write("=== Dataset Info ===\n")
+        f.write(f"Dataset Name     : {args.dataset_name}\n")
+        f.write(f"Database Size    : {args.database_size}\n")
+        f.write(f"Positive Thres   : {args.val_positive_dist_threshold}\n")
+        f.write(f"Correlation Lvl  : {args.corr_level}\n")
+        f.write(f"Generate Pairs   : {args.generate_test_pairs}\n\n")
+
+        f.write("=== Runtime Settings ===\n")
+        f.write(f"Batch Size       : {args.batch_size}\n")
+        f.write(f"Num Workers      : {args.num_workers}\n")
+        f.write(f"Lev0             : {args.lev0}\n")
+        f.write(f"Start Time       : {start_time.strftime('%Y-%m-%d %H:%M:%S')}\n")
+        f.write(f"End Time         : {end_time.strftime('%Y-%m-%d %H:%M:%S')}\n")
+        f.write(f"Elapsed Time     : {elapsed_str}\n\n")  # ⬅️ 영어로 걸린시간 추가
+
+        f.write("=== Data Augmentation ===\n")
+        f.write(f"Augment Type     : {args.augment}\n")
+        f.write(f"Rotate Max       : {args.rotate_max:.2f} rad ({np.degrees(args.rotate_max):.2f} deg)\n")
+        f.write(f"Resize Max       : {args.resize_max}\n")
+        f.write(f"Perspective Max  : {args.perspective_max}\n\n")
+
+        f.write("=== System Info ===\n")
+        f.write(f"Python Version   : {platform.python_version()}\n")
+        f.write(f"PyTorch Version  : {torch.__version__}\n")
+        f.write(f"CUDA Version     : {torch.version.cuda}\n")
+        f.write(f"GPU : NVIDIA Tesla V100\n")  # 수정: Tesla V100 으로 저장
+
+
+        f.write("===Query와 database 선택 ===\n")
+        f.write("Query와 가까운 Database 후보들을 거리순으로 정렬한다. \n")
+        f.write("후보가 충분히 많으면 5등~10등 사이에서 무작위로 하나를 선택한다. \n")
+        f.write("후보가 적을 경우에는 가장 가까운 1등 후보를 선택한다. = 똑같은 중심좌표 \n")
+        f.write("항상 같은 짝이 아니라 여러 순위의 후보를 쓰게 되어 매칭 다양성을 확보 \n")
+
+        
+    print(f"[INFO] Metrics saved at {metrics_path}")
+
+   # 🔥 추가: MACE / CE 시각화 저장
+    mace_vals = total_mace.cpu().numpy()
+    ce_vals   = total_ce.cpu().numpy() 
 
 
 if __name__ == '__main__':
@@ -344,3 +409,40 @@ if __name__ == '__main__':
     
 
 """python3 local_pipeline/t_evaluate.py   --datasets_folder t_datasets   --dataset_name 3131_datasets   --eval_model pretrained_models/1536_two_stages/STHN.pth   --val_positive_dist_threshold 512   --lev0   --database_size 1536   --corr_level 4   --test   --num_workers 0   --batch_size 1"""
+
+
+"""python3 local_pipeline/t_evaluate.py \
+  --datasets_folder t_datasets \
+  --dataset_name 3131_datasets \
+  --eval_model pretrained_models/1536_two_stages/STHN.pth \
+  --val_positive_dist_threshold 512 \
+  --lev0 \
+  --database_size 1536 \
+  --corr_level 4 \
+  --test \
+  --num_workers 2 \
+  --batch_size 1 \
+  --augment img \
+  --rotate_max 15 \
+  --resize_max 0.1 \
+  --perspective_max 5
+"""
+
+
+
+"""python3 local_pipeline/t_evaluate.py \
+  --datasets_folder t_datasets \
+  --dataset_name 3131_datasets \
+  --eval_model pretrained_models/1536_two_stages/STHN.pth \
+  --val_positive_dist_threshold 512 \
+  --lev0 \
+  --database_size 1536 \
+  --corr_level 4 \
+  --test \
+  --num_workers 2 \
+  --batch_size 1 \
+  --augment img \
+  --rotate_max 5 \
+  --resize_max 0 \
+  --perspective_max 0
+"""

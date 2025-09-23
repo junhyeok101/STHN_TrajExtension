@@ -1,0 +1,40 @@
+=== Evaluation Results ===
+MACE: 8.237565
+CE:   2.352553
+Flow Mean: 121.821709
+
+=== Model Info ===
+Eval Model       : pretrained_models/1536_two_stages/STHN.pth
+Two Stages       : False
+
+=== Dataset Info ===
+Dataset Name     : 3131_datasets
+Database Size    : 1536
+Positive Thres   : 512
+Correlation Lvl  : 4
+Generate Pairs   : False
+
+=== Runtime Settings ===
+Batch Size       : 1
+Num Workers      : 2
+Lev0             : True
+Start Time       : 2025-09-23 03:30:18
+End Time         : 2025-09-23 03:30:44
+Elapsed Time     : 0:00:26
+
+=== Data Augmentation ===
+Augment Type     : img
+Rotate Max       : 0.00 rad (0.00 deg)
+Resize Max       : 0.0
+Perspective Max  : 30.0
+
+=== System Info ===
+Python Version   : 3.10.6
+PyTorch Version  : 2.1.0+cu121
+CUDA Version     : 12.1
+GPU : NVIDIA Tesla V100
+===Query와 database 선택 ===
+Query와 가까운 Database 후보들을 거리순으로 정렬한다. 
+후보가 충분히 많으면 5등~10등 사이에서 무작위로 하나를 선택한다. 
+후보가 적을 경우에는 가장 가까운 1등 후보를 선택한다. = 똑같은 중심좌표 
+항상 같은 짝이 아니라 여러 순위의 후보를 쓰게 되어 매칭 다양성을 확보 
