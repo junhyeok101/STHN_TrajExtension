@@ -44,8 +44,6 @@ then evaluate how well the pretrained STHN performs **local matching** on this s
 ![Trajectory Example](t_output/trajectory_ordered_numbered.png)
 
 
-![Trajectory Example2](t_output/trajectory_ordered
-.png)
 
 ### Example Outputs
 ```python
