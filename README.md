@@ -41,8 +41,11 @@ then evaluate how well the pretrained STHN performs **local matching** on this s
 ---
 
 ## 📊 Results
-![Trajectory Example](t_output/plot/example.png)
+![Trajectory Example](t_output/trajectory_ordered_numbered.png)
 
+
+![Trajectory Example2](t_output/trajectory_ordered
+.png)
 
 ### Example Outputs
 ```python
